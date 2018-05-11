@@ -1,0 +1,73 @@
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+body {
+	/*background: grey;*/
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+	background: gray;
+	
+}
+
+h1 {
+	padding: 10px;
+}
+
+.controls {
+	margin: auto;
+	padding: 10px 40px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+button {
+	background: white;
+}
+
+select {
+	background: white
+}
+
+.rooster {
+	display: block;
+    text-align: center;
+    font-size: 80px;
+	width: 100%;
+	height: 80%;
+}
+
+.tegel {
+	text-align: center;
+    display: inline-block;
+	width: 15vw;
+	height: 15vw;
+	margin: 0px 2px;
+}
+
+@media (max-width: 800px) {
+
+	.container {
+		width: 80%;
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	.container {
+		width: 100%;
+	}
+
+	.tegel {
+		width: 15%;
+		padding-bottom: 15%;
+	}
+
+}

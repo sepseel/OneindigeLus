@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.fittext.js"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <div>
+            <h1><b>Gekleurde druppels </b></h1>
+        </div>
+        <hr/>
+
+        <div class="controls">
+            <button id='new' type="button">New game</button>
+            <select id='colour'> 
+                <option value='Pick'>Kleuren</option>                   
+                <option id='green' value="green">groen</option>
+                <option id='red' value="red">rood</option>
+                <option id='orange' value="orange">oranje</option>
+                <option id='blue' value="blue">blauw</option>  
+                <option id='purple' value="purple">paars</option>                      
+            </select>
+            <h3 id='score'></h3>
+            
+        </div>
+        <br>
+
+        <div class="rooster">
+            <script src="sketch.js" type="text/javascript"></script>
+        </div>
+    </div>
+</body>
+</html>
+
